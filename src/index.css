@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background: #fff;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+:root {
+  --color-acento: #007bff;
+  --color-acento-hover: #0056b3;
+  --color-bg: #fff;
+  --color-texto: #222;
+  --color-footer: #222;
+  --color-footer-text: #fff;
+  --color-card-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+button, input, select {
+  font-family: inherit;
+}
+
+a {
+  color: var(--color-acento);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--color-acento-hover);
+}
+
+
+
