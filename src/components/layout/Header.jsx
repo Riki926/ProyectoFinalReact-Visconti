@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { useCart } from '../../contexts/CartContext'
+import { useCart } from '../../context/CartContext'
 import { useCategories } from '../../hooks/useProducts'
 // import './Header.css' // Archivo CSS no existe - usando Navbar.css de src/styles/
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useParams, Link, Navigate } from 'react-router-dom'
 import { useProduct } from '../hooks/useProducts'
-import { useCart } from '../contexts/CartContext'
+import { useCart } from '../context/CartContext'
 import LoadingSpinner from '../components/common/LoadingSpinner'
 // import './ProductPage.css' // Archivo CSS no existe - usando estructura modular en src/styles/
 

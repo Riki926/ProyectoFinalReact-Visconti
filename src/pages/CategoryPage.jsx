@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams, Link, Navigate } from 'react-router-dom'
 import { useProductsByCategory } from '../hooks/useProducts'
-import ProductCard from '../components/product/ProductCard'
+import ProductCard from '../components/ProductCard'
 import LoadingSpinner from '../components/common/LoadingSpinner'
 // import './CategoryPage.css' // Archivo CSS no existe - usando estructura modular en src/styles/
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { useCart } from '../contexts/CartContext'
+import { useCart } from '../context/CartContext'
 // import './CartPage.css' // Archivo CSS no existe - componente utiliza estilos globales
 
 const CartPage = () => {
