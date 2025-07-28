@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useParams, Link, Navigate } from 'react-router-dom'
-import { orderService } from '../services/firebase'
+import { orderService } from '../firebase/services'
 import LoadingSpinner from '../components/common/LoadingSpinner'
 // import './OrderConfirmationPage.css' // Archivo CSS no existe - usando estructura modular en src/styles/
 

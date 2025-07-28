@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductCard from './ProductCard'
+import ProductCard from '../ProductCard'
 import LoadingSpinner from '../common/LoadingSpinner'
 // import './ProductGrid.css' // Archivo CSS no existe - componente utiliza estilos globales
 

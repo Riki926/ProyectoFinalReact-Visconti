@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Navigate, useNavigate } from 'react-router-dom'
 import { useCart } from '../context/CartContext'
-import { orderService } from '../services/firebase'
+import { orderService } from '../firebase/services'
 import LoadingSpinner from '../components/common/LoadingSpinner'
 // import './CheckoutPage.css' // Archivo CSS no existe - usando estructura modular en src/styles/
 

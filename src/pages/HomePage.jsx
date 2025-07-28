@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useFeaturedProducts, useCategories } from '../hooks/useProducts'
-import { productService } from '../services/firebase'
+import { productService } from '../firebase/services'
 import ProductCard from '../components/ProductCard'
 import LoadingSpinner from '../components/common/LoadingSpinner'
 // import './HomePage.css' // Archivo CSS no existe - usando estructura modular en src/styles/

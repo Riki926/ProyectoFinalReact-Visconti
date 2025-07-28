@@ -2,7 +2,7 @@ import React, { useMemo, useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import ItemList from "./ItemList";
 import SkeletonList from "./SkeletonList";
-import useProducts from "./useProducts";
+import { useProducts } from "../hooks/useProducts";
 import "./ItemListContainer.css";
 
 const CATEGORY_ICONS = {
